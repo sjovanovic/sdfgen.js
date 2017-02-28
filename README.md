@@ -12,6 +12,10 @@ into this:
 
 ![Alt text](example/result.png?raw=true "Result image")
 
+## Demo
+
+[Click here for DEMO](https://sjovanovic.github.io/sdfgen.js/index.html)
+
 ## Usage
 
 First include the `sdfgen.js` (there are no dependencies) and then
