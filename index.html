@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SDF Image generator WebGL version</title>
+<style>
+</style>
+
+<script src="sdfgen.js"></script>
+
+</head>
+<body style="padding:0px;margin:0px">
+
+<canvas id="canvas" width="512" height="512" style="-webkit-tap-highlight-color: transparent;"></canvas>
+
+<script>
+
+new SDFGen({
+	inputImage:'example/input.png',
+	canvas:'#canvas',
+	spread: 60
+})
+
+</script>
+
+
+</body>
+</html>
